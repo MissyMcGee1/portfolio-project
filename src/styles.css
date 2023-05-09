@@ -5,6 +5,47 @@ h1 {
   font-family: "Playfair Display", serif;
 }
 
+h3 {
+  margin-bottom: 0;
+}
+
 p {
   font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+hr {
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.hero {
+  color: #ffffff;
+  background: #02381a;
+}
+
+.main-content {
+  background: #f2eae5;
+  padding-left: 90px;
+}
+
+.main-content h2 {
+  padding: 70px 0 42px 0;
+  margin-bottom: 0;
+}
+
+.primary-image {
+  width: 580px;
+  height: 715px;
+}
+
+.secondary-image {
+  width: 700px;
+  height: 580px;
 }
