@@ -15,8 +15,9 @@ hr {
   color: #ffffff;
 }
 
-.container-fluid {
+.container {
   padding: 0;
+  margin: 0 auto;
 }
 
 .hero {
