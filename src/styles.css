@@ -28,6 +28,14 @@ hr {
 .hero {
   color: #ffffff;
   background: #02381a;
+  padding-bottom: 100px;
+}
+
+.hero btn-resume {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin-left: 38px;
+  padding: 10px 45px;
 }
 
 .main-content {
