@@ -5,6 +5,10 @@
   --background-secondary: #f2eae5;
 }
 
+h1 span {
+  color: var(--secondary-color);
+}
+
 h3 {
   margin-bottom: 0;
 }
@@ -46,7 +50,7 @@ a {
 }
 
 .hero h1 {
-  font-size: 60px;
+  font-size: 64px;
   font-family: "Playfair Display", serif;
   text-align: center;
   margin: 0 auto;
