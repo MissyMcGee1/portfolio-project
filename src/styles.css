@@ -31,13 +31,17 @@ hr {
   text-align: center;
   margin: 0 auto;
   padding-top: 100px;
+  padding-bottom: 100px;
   width: 70%;
   line-height: 105px;
 }
 
 .hero-content {
-  padding-top: 100px;
   padding-left: 210px;
+}
+
+.row {
+  padding-top: 70px;
 }
 
 .btn-resume {
@@ -53,7 +57,7 @@ hr {
 }
 
 .main-content h2 {
-  padding: 70px 0 42px 0;
+  padding-top: 70px;
   margin-bottom: 0;
 }
 
