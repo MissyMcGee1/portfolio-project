@@ -11,18 +11,29 @@ ul {
   text-align: left;
 }
 
-hr {
+ul a {
   color: #ffffff;
+  font-size: 16px;
 }
 
-.container {
+hr {
+  color: #ffffff;
+  border: 1px solid #f9abac;
+}
+
+a {
+  font-size: 24px;
+  color: #ffffff;
+}
+.container-fluid {
   padding: 0;
-  margin: 0 auto;
+  background-color: #f2eae5;
+  width: 100%;
 }
 
 .hero {
   color: #ffffff;
-  background: #02381a;
+  background: #202f1a;
   padding-bottom: 100px;
 }
 
@@ -38,11 +49,17 @@ hr {
 }
 
 .hero-content {
-  padding-left: 210px;
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 140px;
 }
 
 .row {
   padding-top: 70px;
+}
+
+.col-md-6-intro {
+  background-color: #f9abac;
 }
 
 .btn-resume {
@@ -53,8 +70,9 @@ hr {
 }
 
 .main-content {
-  background: #f2eae5;
-  padding-left: 90px;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .main-content h2 {
