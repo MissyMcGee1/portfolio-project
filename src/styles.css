@@ -7,6 +7,25 @@
   --background-secondary: #f2eae5;
 }
 
+nav {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+}
+
+nav a {
+  font-size: 16px;
+  font-style: none;
+  font-family: var(--font);
+  text-decoration: none;
+}
+
 h1 {
   font-size: 60px;
   font-family: var(--font-secondary);
@@ -51,6 +70,7 @@ a {
   font-size: 24px;
   color: var(--primary-color);
 }
+
 .container-fluid {
   padding: 0;
   background: var(--background-secondary);
