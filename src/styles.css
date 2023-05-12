@@ -138,3 +138,8 @@ a {
   font-size: 20px;
   padding-top: 30px;
 }
+
+.contact-content a {
+  font-family: var(--font-secondary);
+  font-style: italic;
+}
