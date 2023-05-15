@@ -27,7 +27,7 @@ nav a {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 100px;
   font-family: var(--font-secondary);
   text-align: left;
   margin: 0 auto;
@@ -128,14 +128,13 @@ a {
   font-size: 24px;
   font-weight: 600;
 }
-
-.main-content {
-  color: var(--secondary-color);
-}
-
 .main-content a:hover {
   color: var(--secondary-color);
   text-decoration: none;
+}
+
+.main-content {
+  color: var(--secondary-color);
 }
 
 .primary-image {
