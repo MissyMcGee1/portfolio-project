@@ -2,9 +2,9 @@
   --font: "Poppins", sans-serif;
   --font-secondary: "Playfair Display", serif;
   --primary-color: #ffffff;
-  --secondary-color: #efbbff;
-  --background-primary: #421b2e;
-  --background-secondary: #f2eae5;
+  --secondary-color: #64a19f;
+  --background-primary: #041f1e;
+  --background-secondary: #07312f;
 }
 
 nav {
@@ -102,7 +102,7 @@ a {
 }
 
 .btn-resume {
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
   color: var(--primary-color);
   margin-left: 38px;
   padding: 10px 45px;
@@ -120,13 +120,17 @@ a {
 }
 
 .main-content h2 {
+  color: var(--secondary-color);
   padding-top: 70px;
   margin-bottom: 0;
 }
 .main-content a {
   font-size: 24px;
-  color: var(--background-primary);
   font-weight: 600;
+}
+
+.main-content {
+  color: var(--secondary-color);
 }
 
 .main-content a:hover {
