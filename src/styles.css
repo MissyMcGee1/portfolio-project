@@ -16,13 +16,21 @@ nav {
 nav li {
   display: inline;
   list-style: none;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
-nav a {
-  font-size: 16px;
+nav a,
+footer a {
+  font-size: 20px;
   font-style: none;
   font-family: var(--font);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+nav a:hover,
+footer a:hover {
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -37,7 +45,8 @@ h1 {
   line-height: 105px;
 }
 
-h1 span {
+h1 span,
+h2 span {
   color: var(--secondary-color);
   font-style: italic;
 }
@@ -55,20 +64,24 @@ ul {
   text-align: left;
 }
 
-ul a {
-  color: var(--primary-color);
-  font-size: 14px;
-  font-style: italic;
-}
-
 hr {
-  color: var(--primary-color);
   border: 1px solid var(--secondary-color);
 }
 
-a {
-  font-size: 24px;
-  color: var(--primary-color);
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+footer h2 {
+  font-size: 70px;
+}
+
+.missy-link {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .container-fluid {
@@ -89,7 +102,13 @@ a {
   padding-bottom: 140px;
 }
 
-.content a:hover {
+.education a {
+  font-size: 10px;
+  font-style: italic;
+  color: var(--primary-color);
+}
+
+.education a:hover {
   color: var(--secondary-color);
 }
 
@@ -125,6 +144,7 @@ a {
   margin-bottom: 0;
 }
 .main-content a {
+  color: var(--primary-color);
   font-size: 24px;
   font-weight: 600;
 }
