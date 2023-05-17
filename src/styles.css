@@ -89,7 +89,7 @@ footer h2 {
 
 .container-fluid {
   padding: 0;
-  background: var(--background-secondary);
+  background: var(--background-primary);
   width: 100%;
 }
 
