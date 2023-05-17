@@ -63,7 +63,6 @@
         </nav>
         <h1>Contact <span>me</span></h1>
         <hr />
-
         <div class="content">
           <div class="contact">
             <h2>
@@ -89,17 +88,28 @@
             <form action="">
               <input
                 type="text"
+                id="first-name"
                 class="form-control"
                 placeholder="First name"
+                required
               />
-              <input type="text" class="form-control" placeholder="Last name" />
+              <input
+                type="text"
+                id="last-name"
+                class="form-control"
+                placeholder="Last name"
+                required
+              />
               <input
                 type="email"
+                id="email"
                 class="form-control"
-                id="inputEmail4"
                 placeholder="Email"
               />
-              <textarea class="form-control" id="text-area" rows="5"></textarea>
+              <textarea class="form-control" id="text-area" rows="4">
+How can I help?</textarea
+              >
+              <button type="submit" class="btn btn-contact">Submit</button>
             </form>
           </div>
         </div>

@@ -80,6 +80,11 @@ footer h2 {
   font-size: 70px;
 }
 
+footer span {
+  font-family: var(--font-secondary);
+  font-style: italic;
+}
+
 .missy-link {
   font-size: 20px;
   font-weight: 100;
@@ -121,7 +126,8 @@ footer h2 {
   background-color: var(--secondary-color);
 }
 
-.btn-resume {
+.btn-resume,
+.btn-contact {
   border: 1px solid var(--secondary-color);
   color: var(--primary-color);
   margin-left: 38px;
@@ -180,6 +186,23 @@ footer h2 {
 }
 
 .contact-content a {
+  color: var(--primary-color);
   font-family: var(--font-secondary);
   font-style: italic;
+}
+
+.contact-form {
+  padding-top: 50px;
+}
+
+.form-control {
+  font-size: 30px;
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--secondary-color);
+  border-radius: 0;
+  margin: 30px 0;
+  padding: 10px;
+  background: var(--background-primary);
 }
