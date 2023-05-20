@@ -1,6 +1,6 @@
 :root {
   --font: "Poppins", sans-serif;
-  --font-secondary: "Playfair Display", serif;
+  --font-secondary: "Cormorant Garamond", serif;
   --primary-color: #ffffff;
   --secondary-color: #64a19f;
   --background-primary: #041f1e;
@@ -80,6 +80,11 @@ footer {
 
 footer h2 {
   font-size: 70px;
+}
+
+footer ul {
+  line-height: 45px;
+  padding-top: 10px;
 }
 
 .homepage-link {
