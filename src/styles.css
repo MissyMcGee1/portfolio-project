@@ -38,20 +38,23 @@ footer a:hover {
 h1 {
   font-size: 100px;
   font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-transform: uppercase;
   text-align: left;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 70px;
   width: 70%;
-  line-height: 105px;
+  line-height: 114px;
 }
 
 h1 span,
 h2 span,
 footer span {
-  color: var(--secondary-color);
-  font-family: var(--font-secondary);
-  font-style: italic;
+  font-size: 90px;
+  font-family: var(--font);
+  font-weight: 300;
+  color: var(--primary-color);
 }
 
 h3 {
@@ -61,6 +64,8 @@ h3 {
 
 p {
   font-family: var(--font);
+  font-weight: 300;
+  line-height: 32px;
 }
 
 ul {
@@ -80,7 +85,10 @@ footer {
 }
 
 footer h2 {
-  font-size: 70px;
+  color: var(--secondary-color);
+  font-family: var(--font-secondary);
+  font-size: 100px;
+  text-transform: uppercase;
 }
 
 footer ul {
@@ -112,7 +120,6 @@ footer ul {
 }
 
 .education a {
-  font-size: 10px;
   font-style: italic;
   color: var(--primary-color);
 }
@@ -137,6 +144,12 @@ footer ul {
 }
 
 .btn-resume:hover {
+  color: var(--background-primary);
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.languages {
   color: var(--secondary-color);
 }
 
@@ -148,8 +161,11 @@ footer ul {
 }
 
 .main-content h2 {
-  font-size: 80px;
-  color: var(--primary-color);
+  font-size: 100px;
+  font-family: var(--font-secondary);
+  font-style: italic;
+  text-transform: uppercase;
+  color: var(--secondary-color);
   padding-top: 70px;
   margin-bottom: 0;
 }
