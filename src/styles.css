@@ -135,10 +135,6 @@ footer ul {
   padding-top: 70px;
 }
 
-.col-md-6-intro {
-  background-color: var(--secondary-color);
-}
-
 .btn-resume {
   border: 1px solid var(--secondary-color);
   color: var(--primary-color);
@@ -315,9 +311,9 @@ footer ul {
     padding-top: 40px;
   }
 
-  .project-description {
+  /*.project-description {
     padding-bottom: 20px;
-  }
+  }*/
 
   .btn-resume {
     margin-left: 0;
