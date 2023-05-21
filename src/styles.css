@@ -218,7 +218,23 @@ footer ul {
   font-size: 100px;
   text-decoration: underline;
 }
+.about-intro {
+  font-size: 72px;
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  line-height: 80px;
+}
 
+.about-intro span {
+  font-size: 68px;
+  font-family: var(--font);
+  font-weight: 300;
+  color: var(--primary-color);
+}
 @media (max-width: 400px) {
   nav a {
     font-size: 15px;
@@ -321,5 +337,23 @@ footer ul {
 
   .footer-link {
     font-size: 40px;
+  }
+
+  .about-intro {
+    font-size: 42px;
+    font-family: var(--font-secondary);
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 60px;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .about-intro span {
+    font-size: 39px;
+    font-family: var(--font);
+    font-weight: 300;
+    color: var(--primary-color);
   }
 }
