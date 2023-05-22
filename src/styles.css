@@ -41,7 +41,6 @@ h1 {
   font-family: var(--font-secondary);
   color: var(--secondary-color);
   text-transform: uppercase;
-  font-style: italic;
   text-align: left;
   margin: 0 auto;
   padding-top: 100px;
