@@ -10,7 +10,7 @@
 nav {
   padding-top: 50px;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 
 nav li {
@@ -45,7 +45,7 @@ h1 {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 70px;
-  width: 70%;
+  width: 90%;
   line-height: 114px;
 }
 
@@ -82,7 +82,7 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 
 footer h2 {
@@ -117,7 +117,7 @@ footer ul {
 
 .content {
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
   padding-bottom: 140px;
 }
 
@@ -154,7 +154,7 @@ footer ul {
 .main-content {
   color: var(--primary-color);
   padding: 0;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding-bottom: 100px;
 }
