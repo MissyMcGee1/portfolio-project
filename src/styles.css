@@ -131,6 +131,7 @@ footer ul {
   color: var(--primary-color);
 }
 
+.languages,
 .education a:hover {
   color: var(--secondary-color);
 }
@@ -139,21 +140,18 @@ footer ul {
   padding-top: 70px;
 }
 
-.btn-resume {
+.btn-button {
   border: 1px solid var(--secondary-color);
   color: var(--primary-color);
-  margin-left: 38px;
   padding: 10px 45px;
 }
 
-.btn-resume:hover {
+.btn-button:hover {
   color: var(--background-primary);
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
-}
-
-.languages {
-  color: var(--secondary-color);
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .main-content {
@@ -173,16 +171,11 @@ footer ul {
   padding-top: 70px;
   margin-bottom: 0;
 }
-.main-content a {
+.project-title {
   color: var(--primary-color);
   font-size: 50px;
   font-weight: 300;
   text-transform: uppercase;
-}
-.main-content a:hover {
-  color: var(--secondary-color);
-  text-decoration: none;
-  transition: 0.3s ease-in-out;
 }
 
 .primary-image {
