@@ -4,7 +4,7 @@
   --primary-color: #ffffff;
   --secondary-color: #64a19f;
   --background-primary: #041f1e;
-  --background-secondary: #07312f;
+  --background-secondary: #081818;
 }
 
 nav {
@@ -110,7 +110,7 @@ footer ul {
 
 .container-fluid {
   padding: 0;
-  background: var(--background-primary);
+  background: var(--background-secondary);
   width: 100%;
 }
 
