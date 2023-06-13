@@ -128,7 +128,6 @@ footer ul {
 }
 
 .education a {
-  font-style: italic;
   color: var(--primary-color);
 }
 
@@ -145,6 +144,7 @@ footer ul {
   border: 1px solid var(--secondary-color);
   color: var(--primary-color);
   padding: 10px 45px;
+  margin-top: 30px;
 }
 
 .btn-button:hover {
@@ -189,6 +189,10 @@ footer ul {
 .primary-image:hover {
   transition: 0.2s ease;
   opacity: 1;
+}
+
+.portrait {
+  border-radius: 50%;
 }
 .personal-description {
   width: 80%;
@@ -324,10 +328,6 @@ footer ul {
 
   .primary-image {
     height: auto;
-  }
-
-  .portrait {
-    padding-bottom: 50px;
   }
 
   .personal-description {
