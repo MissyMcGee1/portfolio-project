@@ -129,6 +129,11 @@ footer ul {
 
 .education a {
   color: var(--primary-color);
+  font-style: italic;
+}
+
+.recent-build {
+  margin-bottom: 150px;
 }
 
 .languages,
@@ -190,9 +195,6 @@ footer ul {
   opacity: 1;
 }
 
-.portrait {
-  border-radius: 50%;
-}
 .personal-description {
   width: 80%;
   padding-top: 45px;
@@ -314,15 +316,6 @@ footer ul {
 
   .row {
     padding-top: 40px;
-  }
-
-  /*.project-description {
-    padding-bottom: 20px;
-  }*/
-
-  .btn-resume {
-    margin-left: 0;
-    margin-top: 20px;
   }
 
   .primary-image {
