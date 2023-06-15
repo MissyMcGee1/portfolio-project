@@ -144,7 +144,6 @@ footer ul {
   border: 1px solid var(--secondary-color);
   color: var(--primary-color);
   padding: 10px 45px;
-  margin-top: 30px;
 }
 
 .btn-button:hover {
