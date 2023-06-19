@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A porfolio I created to display my projects, skills, education, and personality.
+A portfolio I created to display my projects, skills, education, and personality.
 
 ## Authors
 
