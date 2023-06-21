@@ -118,7 +118,7 @@ footer ul {
 .content-container {
   color: var(--primary-color);
   background: var(--background-primary);
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .content {
@@ -206,14 +206,13 @@ footer ul {
 }
 
 .contact-content {
-  font-size: 20px;
-  padding-top: 30px;
+  font-size: 28px;
 }
 
 .contact-content a {
   color: var(--primary-color);
-  font-family: var(--font-secondary);
-  font-style: italic;
+  font-family: var(--font-primary);
+  text-decoration: underline;
 }
 
 .footer-link {
@@ -226,7 +225,6 @@ footer ul {
   color: var(--secondary-color);
   text-transform: uppercase;
   text-align: left;
-  padding-top: 50px;
   padding-bottom: 70px;
   line-height: 80px;
   font-style: italic;
@@ -236,6 +234,7 @@ footer ul {
   font-size: 68px;
   font-family: var(--font);
   font-weight: 300;
+  font-style: normal;
   color: var(--primary-color);
 }
 
