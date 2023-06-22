@@ -61,6 +61,7 @@ footer span {
 img {
   border-radius: 5px;
   background-size: cover;
+  padding-bottom: 20px;
 }
 
 h3 {
@@ -132,7 +133,8 @@ footer ul {
   font-style: italic;
 }
 
-.recent-build {
+.recent-build,
+.image-reverse {
   margin-bottom: 150px;
 }
 
@@ -176,6 +178,7 @@ footer ul {
   padding-top: 70px;
   margin-bottom: 0;
 }
+
 .project-title {
   color: var(--primary-color);
   font-size: 50px;
@@ -183,16 +186,18 @@ footer ul {
   text-transform: uppercase;
 }
 
+.image-container {
+  overflow: hidden;
+  background-size: cover;
+}
+
 .primary-image {
-  width: 800px;
-  height: 600px;
-  transition: 0.2s ease;
-  opacity: 0.7;
+  transition: transform 0.2s ease;
 }
 
 .primary-image:hover {
-  transition: 0.2s ease;
-  opacity: 1;
+  transform: scale(1.05);
+  transform-origin: center center;
 }
 
 .personal-description {
@@ -200,26 +205,11 @@ footer ul {
   padding-top: 45px;
 }
 
-.contact {
-  font-size: 50px;
-  padding-top: 55px;
-}
-
-.contact-content {
+.contact-content p {
   font-size: 28px;
 }
 
-.contact-content a {
-  color: var(--primary-color);
-  font-family: var(--font-primary);
-  text-decoration: underline;
-}
-
-.footer-link {
-  font-size: 100px;
-  text-decoration: underline;
-}
-.about-intro {
+.intro-description {
   font-size: 72px;
   font-family: var(--font-secondary);
   color: var(--secondary-color);
@@ -230,7 +220,7 @@ footer ul {
   font-style: italic;
 }
 
-.about-intro span {
+.intro-description span {
   font-size: 68px;
   font-family: var(--font);
   font-weight: 300;
@@ -238,7 +228,12 @@ footer ul {
   color: var(--primary-color);
 }
 
-@media (max-width: 700px) {
+.footer-link {
+  font-size: 100px;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
   nav a {
     font-size: 15px;
     margin-left: 10px;
@@ -248,24 +243,28 @@ footer ul {
     margin: 0 auto;
     width: 90%;
   }
+
   nav li {
     margin-left: 0;
   }
+
   nav ul {
     padding-right: 15px;
   }
+
   h1 {
     font-size: 49px;
-
     line-height: 54px;
     width: 90%;
     padding-top: 50px;
+    padding-bottom: 20px;
   }
 
   h1 span {
     font-size: 45px;
     font-style: normal;
   }
+
   h2 {
     font-size: 42px;
   }
@@ -284,6 +283,7 @@ footer ul {
   footer {
     width: 90%;
   }
+
   footer a {
     margin-left: 0;
   }
@@ -296,6 +296,7 @@ footer ul {
   .content-container {
     padding-bottom: 0;
   }
+
   .main-content {
     width: 90%;
     padding-bottom: 50px;
@@ -306,8 +307,9 @@ footer ul {
   }
 
   .main-content a {
-    font-size: 36px;
+    font-size: 16px;
   }
+
   .content {
     width: 90%;
     padding-bottom: 60px;
@@ -317,26 +319,38 @@ footer ul {
     padding-top: 40px;
   }
 
+  .image-container {
+    margin-top: 50px;
+  }
+
   .primary-image {
     height: auto;
+  }
+
+  .recent-build {
+    margin-bottom: 30px;
+  }
+
+  .project-title {
+    font-size: 45px;
+  }
+
+  .image-reverse {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .personal-description {
     width: 100%;
     padding-top: 0;
   }
-  .contact {
-    padding-top: 0;
-  }
-  .contact h2 {
-    font-size: 39px;
-  }
 
   .footer-link {
     font-size: 40px;
   }
 
-  .about-intro {
+  .intro-description {
     font-size: 42px;
     font-family: var(--font-secondary);
     color: var(--secondary-color);
@@ -347,7 +361,7 @@ footer ul {
     padding-bottom: 30px;
   }
 
-  .about-intro span {
+  .intro-description span {
     font-size: 39px;
     font-family: var(--font);
     font-weight: 300;
